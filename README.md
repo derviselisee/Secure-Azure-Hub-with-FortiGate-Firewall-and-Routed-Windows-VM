@@ -166,6 +166,8 @@ Logs confirmed NAT and security inspection were working properly
 <img width="1918" height="912" alt="we can see that oiuyr client use fortigate as gateway" src="https://github.com/user-attachments/assets/e56b74fb-a816-4147-9b2b-dcc2c6e95b15" />
 <img width="1916" height="911" alt="Win 11 internet browsing" src="https://github.com/user-attachments/assets/45ff7f31-075f-47e1-9a48-20ffee05aa60" />
 <img width="1917" height="911" alt="FortiView sources" src="https://github.com/user-attachments/assets/54e1c004-3962-4e40-a442-4bfd22baaf2d" />
+<img width="1919" height="914" alt="Traffic Logs" src="https://github.com/user-attachments/assets/b59068b5-dd41-49e3-b353-0bacd73683e1" />
+
 
 ## SUMMARY 
 This project walks through deploying a fully functional FortiGate firewall in Azure and attaching a Windows 11 client behind it. 
@@ -188,6 +190,21 @@ All traffic appeared in FortiView and the logs, confirming that the setup worked
 -Traffic inspection and logging in FortiGate
 
 -Cloud security architecture fundamentals
+
+
+## Final Result
+
+By the end of this project I created a functional cloud security environment where:
+
+The Windows VM securely connects through Azure Bastion
+
+All outbound traffic goes through the FortiGate firewall
+
+Traffic is logged and inspected
+
+FortiGate enforces security policies and NAT
+
+The architecture mirrors a real enterprise cloud edge setup
 
 
 
