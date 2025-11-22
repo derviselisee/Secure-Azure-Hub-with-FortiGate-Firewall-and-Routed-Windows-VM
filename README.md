@@ -47,6 +47,18 @@ After deployment I accessed the FortiGate GUI through its public IP and verified
 <img width="1619" height="870" alt="deployment in progres" src="https://github.com/user-attachments/assets/903232af-6ba6-4da6-922f-20b747b160eb" />
 <img width="1699" height="916" alt="FORTIGATE IS DEPLOYED" src="https://github.com/user-attachments/assets/0564467e-d7ca-4001-ab9a-cc8bde6ef486" />
 
+## 2. Created the Protected Subnet and Windows 11 VM
+
+I deployed a Windows 11 Pro virtual machine and placed it inside a dedicated subnet called protectedsubnet (172.16.1.0/24).
+
+This subnet has no direct internet access and must use the FortiGate as its gateway.
+To enforce this I associated a custom route table that points all outbound traffic to the FortiGate internal interface (172.16.0.68).
+<img width="1405" height="909" alt="Windows vm creation" src="https://github.com/user-attachments/assets/4d76431d-f522-4ba9-97b3-30898dc7576d" />
+<img width="1405" height="909" alt="Windows vm creation" src="https://github.com/user-attachments/assets/d1963a29-bdf0-43bf-b6a2-d18517ec27b8" />
+<img width="1467" height="906" alt="Windows client network config" src="https://github.com/user-attachments/assets/726522aa-bc17-4df8-a27b-0e3bc5d32e76" />
+
+
+
 
 
 
