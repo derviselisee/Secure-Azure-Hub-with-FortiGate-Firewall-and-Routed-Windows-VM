@@ -207,9 +207,12 @@ FortiGate enforces security policies and NAT
 The architecture mirrors a real enterprise cloud edge setup
 
 
+## What I Learned Today
 
-
-
+Working on this project taught me a lot about how Azure networking, routing, and firewall integration actually work in real cloud environments.
+I learned how to deploy a FortiGate VM, map its interfaces to different Azure subnets, and use Azure Bastion for secure remote access without exposing any public RDP ports.
+I also gained a deeper understanding of user-defined routes and how Azure forces traffic through a virtual appliance even when the VM still shows the Azure gateway. At the same time, 
+I learned how to troubleshoot routing loops, fix Bastion return paths, and verify traffic flow through FortiView and firewall logs. Overall, today really helped me understand the building blocks of cloud security architecture and how on-prem firewall concepts translate into Azur
 
 
 
