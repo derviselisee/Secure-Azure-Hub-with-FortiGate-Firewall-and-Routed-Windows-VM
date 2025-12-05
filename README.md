@@ -92,6 +92,8 @@ This is an important security practice because exposing RDP publicly is a major 
 <img width="2878" height="1446" alt="AZURE BASTION" src="https://github.com/user-attachments/assets/3af5d459-2858-44a2-be4c-3ba4435c3a15" />
 <img width="1347" height="916" alt="Bastion successfully created" src="https://github.com/user-attachments/assets/8b8333d6-a06a-4cb3-aef3-c8d616bf31f5" />
 <img width="1918" height="913" alt="I am accessing my windows through Bastion" src="https://github.com/user-attachments/assets/876dfca9-c358-4ee5-a1c2-64f600bee68a" />
+<img width="2880" height="1464" alt="win client in Bastion" src="https://github.com/user-attachments/assets/52993530-4dff-49d7-89e8-5b426e8c05c2" />
+
 
 
 ## 4. Implemented User-Defined Routes (UDR)
