@@ -89,6 +89,7 @@ Key advantages of using Azure Bastion:
 This is an important security practice because exposing RDP publicly is a major attack vector.
 
 <img width="1419" height="770" alt="I am deploying Bastion to access my windows securely" src="https://github.com/user-attachments/assets/8f403ed6-bb21-4946-9e82-e12d65361d66" />
+<img width="2878" height="1446" alt="AZURE BASTION" src="https://github.com/user-attachments/assets/3af5d459-2858-44a2-be4c-3ba4435c3a15" />
 <img width="1347" height="916" alt="Bastion successfully created" src="https://github.com/user-attachments/assets/8b8333d6-a06a-4cb3-aef3-c8d616bf31f5" />
 <img width="1918" height="913" alt="I am accessing my windows through Bastion" src="https://github.com/user-attachments/assets/876dfca9-c358-4ee5-a1c2-64f600bee68a" />
 
