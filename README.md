@@ -2,6 +2,7 @@
 
 This project demonstrates how I deployed a FortiGate Next-Gen Firewall in Microsoft Azure, configured the network from the ground up, and integrated a Windows 11 client inside a protected subnet. 
 The goal was to route all traffic from the Windows VM through the FortiGate, monitor activity through FortiView, and securely access internal resources using Azure Bastion.
+
 <img width="1915" height="913" alt="Azure Portal" src="https://github.com/user-attachments/assets/164ca837-3a68-4e61-95b4-106a4e07d55f" />
 
 
