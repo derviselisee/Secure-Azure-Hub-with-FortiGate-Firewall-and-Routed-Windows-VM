@@ -220,8 +220,13 @@ I learned how to troubleshoot routing loops, fix Bastion return paths, and verif
 Overall, today really helped me understand the building blocks of cloud security architecture and how on-prem firewall concepts translate into Azure
 
 
+## IMPORTANT !!!
 
 
+This project is the hybrid cloud extension of my enterprise security lab. After building a full on-premises environment with Active Directory, FortiGate HA, SD-WAN, LDAP, FSSO, and Wazuh SIEM, I extended the architecture into Microsoft Azure by deploying a FortiGate VM, configuring user-defined routes to force traffic through the firewall for inspection, and setting up Azure Bastion for secure remote access without exposing public RDP. 
+I then connected both environments through a site-to-site IPsec VPN with OSPF dynamic routing to create a unified hybrid network. 
+Along the way I troubleshot routing loops, fixed Bastion return path issues, and verified traffic flow through FortiView and firewall logs. 
+This project taught me how on-premises firewall and routing concepts translate into cloud architecture and gave me hands-on experience with the building blocks of real enterprise hybrid security environments."
 
 
 
